@@ -1,0 +1,158 @@
+body{
+    background-color: #223040;
+    color: #ffff;
+}
+ 
+ #navbar
+{   
+    text-align: center;
+    text-justify: center;
+    justify-content: center;
+    display : flex ;
+    flex-direction: row;
+    background-color:  rgb(231, 194, 148);
+    color: rgb(49, 49, 49);
+    height: 40px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    margin-bottom: 30px;   
+}
+.navbutton{
+    padding: 10px ;
+    margin: 3px;
+    padding-top: auto;
+    transition: 0.3s ease-in-out;
+    border-radius: 4vh;
+
+}
+.navbutton:hover
+{
+
+    color: rgb(231, 194, 148) ;
+    background-color: rgb(49, 49, 49);;
+    scale: 1.1 ;
+}
+#namemain{
+    
+    background-color: #111926;
+    color: white;
+    margin: auto;
+    width: 50vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#name{
+    text-align: left;
+    padding-left: 28%;
+    font-size: 60px;
+}
+#familyname{
+    color: aqua;
+    text-align: right;
+    padding-right: 28%;
+    font-size:  50px;
+}
+#ques{
+    font-style: italic;
+    font-size: 30px;
+   
+
+}
+#ans{
+    font-size: 22px;
+}
+#quote{
+    font-size: 20px;
+    font-family: cursive;
+    color: cyan;
+}
+.navlink{
+    color: rgb(49, 49, 49);
+}
+.navlink:hover{
+    color : rgb(231, 194, 148);
+}
+a.social svg{
+    height: 50px;
+    fill:rgb(231, 194, 148);
+    margin: 2vh;
+    max-width: 40vw; 
+    float: right;
+    flex-direction: column;
+    
+
+}
+a.social{
+    color:white;
+   
+    max-width: 40vw;
+    font-size: 25px ;
+    float: right;
+    flex-direction: column;
+  
+   
+    
+}
+.contact{
+    max-width: 40vw;
+    flex-direction: column;
+    float: right;
+    
+    
+    
+}
+#p{ justify-content: right;
+    max-width: 30vw;
+    max-width: 200px;
+    display : flex ;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(231, 194, 148);
+    border-radius: 20px;
+    color: black;
+    
+    text-align: center;
+    
+}
+.page{
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-justify: center;
+   
+    
+}
+.title{
+    font-size: xx-large;
+    background-color: #111926;
+    width: fit-content;
+    border-radius: 20px;
+}
+.listelement{
+    font-size:larger ;
+}
+#aboutme{
+    background-color: #111926;
+    margin: 0;
+}
+.abouttitle{
+    background-color: #223040;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 0;
+}
+#aboutmetitle{
+    font-size: 50px;
+    margin: 0;
+    padding:0;
+}
+#content{
+    padding: 10px;
+    font-size: larger;
+
+}
